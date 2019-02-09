@@ -39,6 +39,7 @@ const getProductHeroPercentage = () => {
 	var productPriceElem = document.getElementById('product-price');
 	if (productPriceElem !== null) {
 		var heroPrices = productPriceElem.innerText.match(/[0-9]+.[0-9]+/g);
+		console.log("hero prices:", heroPrices)
 		if (heroPrices.length === 2) {
 			heroPrices = heroPrices.map((i) => {
 				return parseFloat(i);
