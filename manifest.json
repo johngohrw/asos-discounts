@@ -1,6 +1,6 @@
 {
   "name": "ASOS Discounts",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "manifest_version": 2,
   "description": "Shows how much you'd save for each item in ASOS!",
   "homepage_url": "http://www.asos.com",
