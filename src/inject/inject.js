@@ -52,9 +52,9 @@ const getProductHeroPercentage = () => {
 			newSpan.appendChild(document.createTextNode("-" + pctg.toString() + "%"));
 			newSpan.classList.add('savings-percentage-hero')
 
-			if (pctg <= 40) {
+			if (pctg < 40) {
 				newSpan.classList.add('savings-low')
-			} else if (pctg <= 70) {
+			} else if (pctg < 70) {
 				newSpan.classList.add('savings-med')
 			} else if (pctg <= 100) {
 				newSpan.classList.add('savings-hi')
@@ -86,9 +86,9 @@ const getArticlePercentages = () => {
 				newSpan.appendChild(document.createTextNode("-" + percentage.toString() + "%"));
 				newSpan.classList.add('savings-percentage')
 
-				if (percentage <= 40) {
+				if (percentage < 40) {
 					newSpan.classList.add('savings-low')
-				} else if (percentage <= 70) {
+				} else if (percentage < 70) {
 					newSpan.classList.add('savings-med')
 				} else if (percentage <= 100) {
 					newSpan.classList.add('savings-hi')
